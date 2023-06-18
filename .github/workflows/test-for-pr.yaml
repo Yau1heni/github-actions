@@ -15,4 +15,4 @@ jobs:
         run: yarn # устанавливаем зависимости
 
       - name: Test
-        run: yarn test # запускаем скрипт тестами
+        run: yarn run cypress # запускаем скрипт тестами
